@@ -4,8 +4,8 @@ def hasL(w):
     for i in range(0, len(w)):
 
         if print (w[i]):
-            return "true"
+            return True
         else:
-            return "false"
+            return False
 
 print(hasL("toronto"))
